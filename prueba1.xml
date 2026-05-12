@@ -1,1 +1,60 @@
 <?xml version ="1.0" encoding="UTF-8"?>
+
+<libreria>
+
+  <catalogo>
+    <!-- Catalogo de libros -->
+    <libro id="001" disponible="true">
+      <titulo>Cien años de soledad</titulo>
+      <autor>Gabriel García Márquez</autor>
+      <isbn>978-0-06-088328-7</isbn>
+      <precio moneda="MXN">350.00</precio>
+      <stock>5</stock>
+      <categoria>Ficción</categoria>
+      <editorial>Sudamericana</editorial>
+    </libro>
+
+    <libro id="002" disponible="false">
+      <titulo>El principito</titulo>
+      <autor>Antoine de Saint-Exupéry</autor>
+      <isbn>978-0-15-601219-5</isbn>
+      <precio moneda="MXN">180.00</precio>
+      <stock>0</stock>
+      <categoria>Infantil</categoria>
+      <editorial>Salamandra</editorial>
+    </libro>
+
+    <libro id="003" disponible="false">
+      <titulo>DAMIAN</titulo>
+      <autor>Alex Mirez</autor>
+      <isbn>978-0-15-601219-5</isbn>
+      <precio moneda="MXN">300.00</precio>
+      <stock>0</stock>
+      <categoria>Ficcion, Misterio</categoria>
+      <editorial>Limex</editorial>
+    </libro>
+
+    <libro id="004" disponible="true">
+      <titulo>La hipótesis del amor</titulo>
+      <autor>Ali Hazelwood</autor>
+      <isbn>978-8-41-835980-4</isbn>
+      <precio moneda="MXN">345.00</precio>
+      <stock>12</stock>
+      <categoria>Romance, Comedia Romántica</categoria>
+      <editorial>Contraluz</editorial>
+    </libro>
+
+    <libro id="005" disponible="true">
+      <titulo>Hábitos Atómicos</titulo>
+      <autor>James Clear</autor>
+      <isbn>978-6-07-317690-3</isbn>
+      <precio moneda="MXN">380.00</precio>
+      <stock>22</stock>
+      <categoria>Autoayuda, Productividad</categoria>
+      <editorial>Paidós</editorial>
+    </libro>
+
+  </catalogo>
+
+  
+</libreria>
