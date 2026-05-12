@@ -1,5 +1,4 @@
 <?xml version ="1.0" encoding="UTF-8"?>
-
 <libreria>
 
   <catalogo>
@@ -56,5 +55,43 @@
 
   </catalogo>
 
-  
+
+<!-- Clientes agregados a la estructura-->
+  <clientes>
+    <cliente id="c01">
+      <nombre>Sarahi Hipolito</nombre>
+      <email>sara@gmail.com</email>
+      <prestamos>
+        <prestamo libro-id="001" fecha-inicio="2026-04-10" fecha-devolucion="2026-05-10"/>
+      </prestamos>
+    </cliente>
+    <cliente id="c02">
+      <nombre>Carlos Rodríguez</nombre>
+      <email>carlos@gmail.com</email>
+      <prestamos>
+        <prestamo libro-id="002" fecha-inicio="2026-04-15" fecha-devolucion="2026-05-15"/>
+      </prestamos>
+    </cliente>
+<cliente id="c03">
+      <nombre>Jenni Rivera</nombre>
+      <email>jenni@gmail.com</email>
+      <prestamos>
+        <prestamo libro-id="003" fecha-inicio="2026-04-07" fecha-devolucion="2026-05-01"/>
+      </prestamos>
+    </cliente>
+<cliente id="c04">
+      <nombre>Taylor Swift</nombre>
+      <email>taylor@gmail.com</email>
+      <prestamos>
+        <prestamo libro-id="004" fecha-inicio="2026-03-10" fecha-devolucion="2026-03-30"/>
+      </prestamos>
+    </cliente>
+<cliente id="c05">
+      <nombre>Megan fox</nombre>
+      <email>megan@gmail.com</email>
+      <prestamos>
+        <prestamo libro-id="005" fecha-inicio="2026-04-25" fecha-devolucion="2026-05-03"/>
+      </prestamos>
+    </cliente>
+  </clientes>
 </libreria>
